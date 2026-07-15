@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m venv .venv)",
+      "Bash(\".venv/Scripts/python.exe\" -m pip install --quiet --upgrade pip requests pandas)",
+      "Bash(\".venv/Scripts/python.exe\" -c \"import requests, pandas; print\\('requests', requests.__version__\\); print\\('pandas', pandas.__version__\\)\")",
+      "Bash(\".venv/Scripts/python.exe\" -m py_compile monday_extract.py)"
+    ]
+  }
+}
