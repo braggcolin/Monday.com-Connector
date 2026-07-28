@@ -63,7 +63,7 @@ API_VERSION = "2026-07"  # current version at time of writing; kept in sync
 # with monday's own API Playground. NOTE: the earlier "some columns are
 # missing" bug turned out to be unrelated to this — see COLUMN_VALUES_FIELDS
 # and the two-phase fetch below for the actual cause/fix.
-BOARD_ID = 18418746285
+BOARD_ID = 11223344556
 
 # When True, pull this board's SUBITEMS instead of its main items. Subitems
 # live on monday's auto-created, separate "subitems board" with its own
